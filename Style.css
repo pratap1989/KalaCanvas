@@ -1,6 +1,17 @@
+body{
+	background: url("images/background.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.head{
+	position: relative;
+	text-align: left;
+	color: black;
+}
 .types{
 	position: relative;
 	text-align: center;
-	color: black;
+	color:black;
 }
-
