@@ -73,6 +73,9 @@ html{
 .button1:link{color: white;}
 .button2:link{color: white;}
 .button3:link{color: white;}
+.button1:hover{color: coral;}
+.button2:hover{color: coral;}
+.button3:hover{color: coral;}
 
 .buttons{
 	padding-top: 5px;
