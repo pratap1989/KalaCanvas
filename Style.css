@@ -1,17 +1,85 @@
-body{
+html{
 	background: url("images/background.jpg");
 	background-repeat: no-repeat;
     background-size: cover;
-
-
 }
 .head{
 	position: relative;
 	text-align: left;
-	color: black;
+	padding-left: 20px;
+	color:Red;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: -50px 0px;
+    position: relative;
+		 }
+.shead{
+		font-size: 20px;
+		font-family: sans-serif;
+		padding-left: 190px;
+		margin: -50px; 
+			}
+
+.subhead{
+	padding-left: 20px;
+	padding-top: 60px;
+	display: block;
+	font-size: 25px;
+	color: coral;
+	width: 600px;
+	text-align: left;
+	padding-top: 150px;
 }
-.types{
-	position: relative;
-	text-align: center;
-	color:black;
+
+.first {
+        background-color: green;
+        border: none;
+        color: hotpink;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+
+.second {
+        background-color: #1c87c9;
+        border: none;
+        color: hotpink;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+.third {
+        background-color: coral;
+        border: none;
+        color: hotpink;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+.button1:link{color: white;}
+.button2:link{color: white;}
+.button3:link{color: white;}
+
+.buttons{
+	padding-top: 5px;
+	padding-left: 15px;
 }
+
+.inverted{ padding-top: 300px; }
+
+
+
