@@ -81,7 +81,9 @@ html{
 	display:flex; 
 }
 
-.inverted{ padding-top: 250px;}
+.inverted{ padding-top: 320px;
+			padding-left: 10px;
+}
 
 
 /* Corquis styling*/
@@ -195,7 +197,7 @@ html{
 }
 
 .po_home_button{
-		background-color: coral !important;
+		background-color: coral ;
 		color:white;
         border: none;
         padding: 20px 34px;
@@ -211,8 +213,17 @@ html{
 .po_home_button:hover{
 	color:coral;
 }
+ .video{ display: block;
+ 	vertical-align: top;
+ 	float: right;
+  }
 
-.po_home_button{
-	background-color: coral !important; 
+.v_heading{
+	text-align: center;
+	background-color: white;
+	float:right;
+	display: inline-block;
+	margin-top: -50px;
+	margin-right: 50px;
 }
 
