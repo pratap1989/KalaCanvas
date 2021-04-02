@@ -72,7 +72,18 @@ html{
         margin: 4px 2px;
         cursor: pointer;
       }
-
+.live{ background-color: white;
+        border: none;
+        color: white;
+        padding: 20px 20px;
+        text-align: right;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+        float: right;
+}
 
 
 .buttons{
@@ -214,8 +225,9 @@ html{
 	color:coral;
 }
  .video{ display: block;
- 	vertical-align: top;
- 	float: right;
+ 	vertical-align: middle;
+ 	float: center;
+
   }
 
 .v_heading{
@@ -227,3 +239,12 @@ html{
 	margin-right: 50px;
 }
 
+
+
+}
+
+@media only screen and (max-width: 600px) {
+  .v_heading {
+  	margin-top: 10px;
+  	
+}
