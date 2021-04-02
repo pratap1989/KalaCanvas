@@ -70,12 +70,13 @@ html{
         margin: 4px 2px;
         cursor: pointer;
       }
-.button1:link{color: white;}
+.button1:link{color: white !important;}
 .button2:link{color: white;}
 .button3:link{color: white;}
 .button1:hover{color: coral;}
 .button2:hover{color: coral;}
 .button3:hover{color: coral;}
+.c_home:link{color: white !important;}
 
 .buttons{
 	padding-top: 5px;
@@ -84,5 +85,42 @@ html{
 
 .inverted{ padding-top: 300px; }
 
+.c_image{
+	width: auto;
+	height:300px;
+	padding-left: 5px;
+	padding-top: 20px;
+}
 
+.c_heading{
+	font-size: 20px;
+		font-family: sans-serif;
+		padding-left: 40px;
+		margin: -30px; 
+		color: red;
+}
 
+.c_content{
+	display: block;
+	width: 550px;
+	padding-left: 10px;
+	font-size: 20px;
+	font-family: roboto;
+	color: red;
+}
+
+.c_home_button{
+	background-color: green;
+	color:white;
+        border: none;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+        float: center;
+        }
+
+.c_home_button:hover{color:coral;}
