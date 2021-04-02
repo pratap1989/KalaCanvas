@@ -72,17 +72,17 @@ html{
         margin: 4px 2px;
         cursor: pointer;
       }
-.live{ background-color: white;
+.vol_live{ background-color: lightblue;
         border: none;
-        color: white;
-        padding: 20px 20px;
-        text-align: right;
+        color: black ;
+        padding: 10px 20px;
+        text-align: left;
         text-decoration: none;
         display: inline-block;
         font-size: 20px;
-        margin: 4px 2px;
+        margin: 0px -410px;
         cursor: pointer;
-        float: right;
+        float: left;
 }
 
 
@@ -246,5 +246,13 @@ html{
 @media only screen and (max-width: 600px) {
   .v_heading {
   	margin-top: 10px;
-  	
+  	}
+.vol_live{
+	margin-top: 20px;
+    padding-left: -50px;
+    float: left;	
+}
+html{
+	background-size: cover;
+	overflow: hidden;
 }
