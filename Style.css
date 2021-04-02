@@ -1,7 +1,8 @@
 html{
 	background: url("images/background.jpg");
-	background-repeat: no-repeat;
-    background-size: cover;
+	    background-size: cover;
+   overflow: hidden;
+    ;
 }
 .head{
 	position: relative;
@@ -28,15 +29,16 @@ html{
 	display: block;
 	font-size: 25px;
 	color: coral;
-	width: 600px;
-	text-align: left;
+	width: 400px;
+	text-align: justify;
 	padding-top: 150px;
+
 }
 
-.first {
+.button1 {
         background-color: green;
         border: none;
-        color: hotpink;
+        color: white;
         padding: 20px 34px;
         text-align: center;
         text-decoration: none;
@@ -46,22 +48,22 @@ html{
         cursor: pointer;
       }
 
-.second {
+.button2 {
         background-color: #1c87c9;
         border: none;
-        color: hotpink;
+        color: white;
         padding: 20px 34px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         font-size: 20px;
-        margin: 4px 2px;
+        margin: 4px -4px;
         cursor: pointer;
       }
-.third {
+.button3 {
         background-color: coral;
         border: none;
-        color: hotpink;
+        color: white;
         padding: 20px 34px;
         text-align: center;
         text-decoration: none;
@@ -70,21 +72,19 @@ html{
         margin: 4px 2px;
         cursor: pointer;
       }
-.button1:link{color: white !important;}
-.button2:link{color: white;}
-.button3:link{color: white;}
-.button1:hover{color: coral;}
-.button2:hover{color: coral;}
-.button3:hover{color: coral;}
-.c_home:link{color: white !important;}
+
+
 
 .buttons{
 	padding-top: 5px;
 	padding-left: 15px;
+	display:flex; 
 }
 
-.inverted{ padding-top: 300px; }
+.inverted{ padding-top: 250px;}
 
+
+/* Corquis styling*/
 .c_image{
 	width: auto;
 	height:300px;
@@ -104,9 +104,10 @@ html{
 	display: block;
 	width: 550px;
 	padding-left: 10px;
-	font-size: 20px;
+	font-size: 16px;
 	font-family: roboto;
 	color: red;
+	text-align: justify;
 }
 
 .c_home_button{
@@ -120,7 +121,98 @@ html{
         font-size: 20px;
         margin: 4px 2px;
         cursor: pointer;
-        float: center;
+
         }
 
 .c_home_button:hover{color:coral;}
+
+/* Pochade styling*/
+.p_image{
+	width: auto;
+	height:300px;
+	padding-left: 5px;
+	padding-top: 20px;
+}
+.p_heading{
+	font-size: 20px;
+		font-family: sans-serif;
+		padding-left: 40px;
+		margin: -30px; 
+		color: red;
+}
+
+.p_content{
+	display: block;
+	width: 600px;
+	padding-left: 10px;
+	font-size: 16px;
+	font-family: roboto;
+	color: red;
+	text-align: justify;
+}
+
+.p_home_button{
+		background-color: #1c87c9;
+		color:white;
+        border: none;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+
+        }
+
+.p_home_button:hover{color:coral;
+}
+
+/* Portrait Styling*/
+.po_image{
+	width: auto;
+	height:300px;
+	padding-left: 5px;
+	padding-top: 20px;
+}
+.po_heading{
+	font-size: 20px;
+		font-family: sans-serif;
+		padding-left: 40px;
+		margin: -30px; 
+		color: red;
+}
+
+
+.po_content{
+	display: block;
+	width: 600px;
+	padding-left: 10px;
+	font-size: 16px;
+	font-family: roboto;
+	color: red;
+	text-align: justify;
+}
+
+.po_home_button{
+		background-color: coral !important;
+		color:white;
+        border: none;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+
+        }
+
+.po_home_button:hover{
+	color:coral;
+}
+
+.po_home_button{
+	background-color: coral !important; 
+}
+
